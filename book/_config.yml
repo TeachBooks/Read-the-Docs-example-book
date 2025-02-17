@@ -8,7 +8,7 @@ only_build_toc_files: true
 
 html:
   favicon : "figures/TB_favicon.ico"
-  baseurl :  "https://teachbooks.io/" #Replace this with your own URL
+  baseurl :  "http://teachbooks.io/Read-the-Docs-example-book/" #Replace this with your own URL
 
 sphinx:
   config:
@@ -22,7 +22,7 @@ sphinx:
         text: Template
         image_light: TeachBooks_logo.svg # Put your logo for the light mode here (can be the same as image_dark)
         image_dark: TeachBooks_logo_inverted.svg # Put your logo for the dark mode here (can be the same as image_light)
-      repository_url: "https://github.com/user/repo" #add your own repo URL here
+      repository_url: "https://github.com/TeachBooks/Read-the-Docs-example-book" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
       use_edit_page_button: true
@@ -40,11 +40,6 @@ sphinx:
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
-    - download_link_replacer
-    - sphinx.ext.extlinks
-    - sphinx_image_inverter
-    - sphinx_exercise
-    - teachbooks_sphinx_tippy
 
 bibtex_bibfiles: 
   - references.bib
