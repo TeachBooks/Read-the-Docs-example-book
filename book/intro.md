@@ -1,3 +1,3 @@
 # Welcome
 
-Fork this book and start a pull request to test the Read the Docs integration, as explained in [](https://teachbooks.io/manual/features/pull_request_build.html)
+Fork this book and start a pull request to test the Read the Docs integration, as explained in [the TeachBooks manual](https://teachbooks.io/manual/features/pull_request_build.html)
